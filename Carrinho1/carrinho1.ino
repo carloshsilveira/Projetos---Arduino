@@ -48,7 +48,7 @@ void setup() {
   lcd.print("Intervalo: ");
   lcd.print(tempoMotorMs / 1000);
   lcd.print("s");
-  delay(5000); // Caso queira mudar o tempo de delay para iniciar basta mudar nessa linha
+  delay(5000); // Caso queira mudar o tempo de delay para iniciar o movimento do carrinho (em milissegundos)
 
   // Mensagem de tempo de funcionamento
   lcd.clear();
